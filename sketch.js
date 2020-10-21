@@ -4,7 +4,6 @@ let detections = [];
 
 
 function preload() {
-  img = loadImage('saudavel.jpg');
   detector = ml5.objectDetector('cocossd');
 }
 
